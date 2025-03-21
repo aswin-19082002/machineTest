@@ -183,7 +183,7 @@ const IntroPage = () => {
                                     </div>
                                     <div className="mb-3">
                                         <label htmlFor="price" className="form-label">Price</label>
-                                        <input type="text" className="form-control" id="price" onChange={change} value={items.price} name="price" placeholder="Enter price" required />
+                                        <input type="number" className="form-control" id="price" onChange={change} value={items.price} name="price" placeholder="Enter price" required />
                                     </div>
                                     <button type="submit" className="btn btn-primary add-btn">ADD</button>
                                 </div>
